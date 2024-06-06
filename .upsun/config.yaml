@@ -139,7 +139,7 @@ services:
 routes:
   "https://{default}/":
     type: upstream
-    upstream: "greenly-github:http"
+    upstream: "hello-world-app:http"
   # A basic redirect definition
   # More information: https://docs.upsun.com/define-routes.html#basic-redirect-definition
   "https://www.{default}":
